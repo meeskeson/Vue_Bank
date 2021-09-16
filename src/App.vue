@@ -2,7 +2,15 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/createClient">Create Client</router-link> |
+      <router-link to="/createAccount">Create Account</router-link> |
+      <router-link to="/balance">Balance</router-link> |
+      <router-link to="/deposit">Deposit</router-link> |
+      <router-link to="/transaction">Transactions</router-link> |
+      <router-link to="/withdraw">Withdraw</router-link> |
+      <router-link to="/transfer">Transfer</router-link>
+
     </div>
     <router-view/>
   </div>
@@ -10,7 +18,7 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Bahnschrift, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

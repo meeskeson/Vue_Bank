@@ -1,0 +1,35 @@
+table, th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 2%;
+    text-align: center;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+button {
+    font-family: Bahnschrift, Helvetica, Arial, sans-serif;
+}
+
+.home {
+    font-family: Bahnschrift, Helvetica, Arial, sans-serif;
+}
+
+.myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+}
